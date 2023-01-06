@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import LogoTitle from '../../assets/images/logo-l.png'
 import Letters from '../Letters'
 import './index.scss'
+import Logo from './Logo'
 const Home= () => {
     const [letterClass, setLetterClass]= useState('text-animate')
     const nameArray= ['u','i','t']
@@ -35,7 +36,7 @@ const Home= () => {
                 <Link to='/contact' className='contact-button'>Contact Me</Link>
                 
             </div>
-            
+            <Logo/>
         </div>
     )
 }
