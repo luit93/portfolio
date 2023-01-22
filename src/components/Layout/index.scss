@@ -38,8 +38,9 @@
     animation-delay: 1s;
 
 }
-.about-page {
-    .abt-text {
+.about,
+.contact {
+    .text-area {
         position: absolute;
         left: 10%;
         top: 50%;

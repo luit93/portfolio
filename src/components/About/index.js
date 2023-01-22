@@ -7,8 +7,8 @@ import {
   faReact,
   faHtml5,
   faCss3,
-  faNodeJs,
-  faJs,
+  faJsSquare,
+  faVuejs,
 } from '@fortawesome/free-brands-svg-icons'
 import Loader from 'react-loaders'
 
@@ -22,8 +22,8 @@ const About = () => {
   }, [])
   return (
     <>
-    <div className="container about-page">
-      <div className="abt-text">
+    <div className="container about">
+      <div className="text-area">
         <h1>
           <Letters
             letterClass={letterClass}
@@ -50,34 +50,29 @@ const About = () => {
 
       <div className="stage-cube-cont">
         <div className="cube-spinner">
-          <div className="face1">
-            <FontAwesomeIcon icon={faHtml5} color="#F06529" />
-          </div>
-          <div className="face2">
-            {' '}
-            <FontAwesomeIcon icon={faGithub} color="#EC4V28" />
-          </div>
-          <div className="face3">
-            {' '}
-            <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
-          </div>
-          <div className="face4">
-            {' '}
-            <FontAwesomeIcon icon={faCss3} color="#28A4D9" />
-          </div>
-          <div className="face5">
-            {' '}
-            <FontAwesomeIcon icon={faJs} color="#EFD81D" />
-          </div>
-          <div className="face6">
-            {' '}
-            <FontAwesomeIcon icon={faNodeJs} color="#00FF00" />
-          </div>
+        <div className="face1">
+              <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
+            </div>
+            <div className="face2">
+              <FontAwesomeIcon icon={faHtml5} color="#F06529" />
+            </div>
+            <div className="face3">
+              <FontAwesomeIcon icon={faCss3} color="#28A4D9" />
+            </div>
+            <div className="face4">
+              <FontAwesomeIcon icon={faVuejs} color="#14A919" />
+            </div>
+            <div className="face5">
+              <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />
+            </div>
+            <div className="face6">
+              <FontAwesomeIcon icon={faGithub} color="#EC4D28" />
+            </div>
         </div>
       </div>
     </div>
-    {/* page loader */}
-    <Loader type='pacman'/>
+    page loader
+    <Loader type='ball-grid-beat'/>
     </>
   )
 }

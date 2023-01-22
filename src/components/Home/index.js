@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import Loader from 'react-loaders'
 import { Link } from 'react-router-dom'
 // import LogoTitle from '../../assets/images/logo-l.png'
 import Letters from '../Letters'
@@ -16,6 +17,8 @@ const Home= () => {
     },[])
    
     return (
+        <>
+       
         <div className="container home-page">
             <div className="text-zone">
                 <h1><span className={letterClass}>Hello</span> 
@@ -38,6 +41,8 @@ const Home= () => {
             </div>
             <Logo/>
         </div>
+        <Loader type='ball-grid-beat' />
+        </>
     )
 }
 
