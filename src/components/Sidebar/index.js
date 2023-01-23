@@ -9,7 +9,7 @@ const Sidebar =()=> (
 <div className='nav-bar'>
     <Link className='logo' to='/'>
     <img src={avatar} alt='avatar'/>
-    <img className='sub-logo' src={LogoSubtitle} alt='Logo Subtitle'/>
+    {/* <img className='sub-logo' src={LogoSubtitle} alt='Logo Subtitle'/> */}
     </Link>
     <nav>
         <NavLink exact="true" activeclassname="active" to="/">
