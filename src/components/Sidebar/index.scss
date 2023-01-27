@@ -84,6 +84,11 @@ nav {
             content: 'ABOUT';
         }
     }
+    a.projects-link{
+        &::after {
+            content: 'PROJECTS';
+        }
+    }
     a.git-link{
         &::after {
             content: 'GITHUB';
