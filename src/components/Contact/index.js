@@ -73,12 +73,7 @@ const Contact=()=>{
         Sydney, NSW, Australia<br/>
        <span>luitsaikia1@gmail.com</span>< br/>
        </div>
-       {/* <div className='map-wrap'>
-        <MapContainer center={[]} zoom={13}>
-            <TileLayer url=''/>
-            <Marker />
-        </MapContainer>
-       </div> */}
+       
 
     </div>
     <Loader type='ball-grid-beat'/>

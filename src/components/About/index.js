@@ -27,7 +27,7 @@ const About = () => {
         <h1>
           <Letters
             letterClass={letterClass}
-            strArray={['A', 'b', 'o', 'u', 't', ' ', 'm', 'e']}
+            strArray={"About me".split('')}
             idx={15}
           />
         </h1>

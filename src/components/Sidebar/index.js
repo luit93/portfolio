@@ -1,7 +1,7 @@
 import './index.scss'
 import { Link, NavLink } from 'react-router-dom'
 import avatar from '../../assets/images/luit-avatar.jpeg'
-import LogoSubtitle from '../../assets/images/logo_sub.png'
+// import LogoSubtitle from '../../assets/images/logo_sub.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHome , faUser,faEnvelope, faPastafarianism } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'

@@ -1,0 +1,18 @@
+{
+    "project":[
+        {
+                "cover": "/project-covers/hire.png",
+                "title": "HireHunter",
+                "description": "Vue, JavaScript, HTML, CSS",
+                "url": "https://hirehunter.com.au/"
+
+        },
+        {
+                "cover": "/project-covers/hire.png",
+                "title": "HireHunter",
+                "description": "Vue, JavaScript, HTML, CSS",
+                "url": "https://hirehunter.com.au/"
+
+        }
+    ]
+}

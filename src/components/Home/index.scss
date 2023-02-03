@@ -1,5 +1,5 @@
 .home-page {
-    .text-zone {
+    .text-area {
         position: absolute;
         left: 10%;
         top:50%;
@@ -14,32 +14,7 @@
         font-family: 'Coolvetica';
         font-weight: 400;
 
-        &::before {
-            content: '<h1>';
-            font-family:'La Belle Aurore';
-            color: #ffd700;
-            font-size: 18px;
-            position: absolute;
-            margin-top:-40px;
-            left:15px;
-            opacity: 0.6;
-
-        }
-
-        &::after {
-            content: '</h1>';
-            font-family:'La Belle Aurore';
-            color: #ffd700;
-            font-size: 18px;
-            position: absolute;
-            margin-top:18px;
-            margin-left:20px;
-            animation: fadeIn 1s 1.7s backwards;
-            opacity: 0.6;
-
-
-
-        }
+     
         img {
             width: 62px;
             margin-left: 20px;
