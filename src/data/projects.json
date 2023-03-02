@@ -8,10 +8,10 @@
 
         },
         {
-                "cover": "/project-covers/hire.png",
-                "title": "HireHunter",
-                "description": "Vue, JavaScript, HTML, CSS",
-                "url": "https://hirehunter.com.au/"
+                "cover": "/project-covers/luit-gpt.png",
+                "title": "Luit-GPT",
+                "description": "JavaScript, HTML, CSS, OpenAI API",
+                "url": "https://luit-gpt.vercel.app/"
 
         }
     ]
