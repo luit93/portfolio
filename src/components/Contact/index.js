@@ -3,7 +3,6 @@ import Letters from '../Letters'
 import { useState, useEffect, useRef } from 'react'
 import './index.scss'
 import emailjs from '@emailjs/browser';
-import { MapContainer, Marker, TileLayer } from 'react-leaflet';
 
 const Contact=()=>{
     const [letterClass, setLetterClass] = useState('text-animate')
@@ -42,12 +41,12 @@ const Contact=()=>{
             idx={15}/>
             </h1>
             <p>
-            Please feel free to reach out to me via email or LinkedIn for any web development projects. Thank you!
+            Please feel free to reach out to me via email, <a href="https://www.linkedin.com/in/luitsaikia/ ">LinkedIn</a>, or send me a message here for any web development projects. Thank you!
             </p>
             <div className='contact-form'>
                 <form ref={refForm} onSubmit={sendEmail}>
                     <ul>
-                        <li className='half'>
+                        {/* <li className='half'>
                             <input type="text" required placeholder='Name' name="name"/>
                         </li>
                         <li className='half'>
@@ -55,7 +54,7 @@ const Contact=()=>{
                         </li>
                         <li className=''>
                             <input type="text" required placeholder='Subject' name="subject"/>
-                        </li>
+                        </li> */}
                         <li>
                             <textarea required placeholder='Message' name="message"></textarea>
                         </li>
