@@ -3,21 +3,21 @@
         {
                 "cover": "/project-covers/hire.png",
                 "title": "HireHunter",
-                "description": "E-commerce site built with Vue, JavaScript, HTML, CSS",
+                "description": "E-commerce site built with Vue,JavaScript,HTML,CSS",
                 "url": "https://hirehunter.com.au/"
 
         },
         {
                 "cover": "/project-covers/luit-gpt.png",
                 "title": "Luit-GPT",
-                "description": "AI chat-bot built with JavaScript, HTML, CSS, OpenAI API",
+                "description": "AI chat-bot built with JavaScript,HTML,CSS,OpenAI",
                 "url": "https://luit-gpt.vercel.app/"
 
         },
         {
             "cover": "/project-covers/funstore.png",
             "title": "FUNSTORE",
-            "description": "E-commerce site built with React, JavaScript, HTML, CSS",
+            "description": "E-commerce site built with React,JavaScript,HTML,CSS",
             "url": "https://funstore.vercel.app/"
 
     }
