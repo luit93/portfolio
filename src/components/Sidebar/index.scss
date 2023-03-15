@@ -45,7 +45,7 @@ nav {
            transition: all 0.3s ease-out; 
         }
         &:hover {
-            color: #ffd700;
+            color: coral;
             text-align: center;
 
             svg {
@@ -97,7 +97,7 @@ nav {
   
     a.active {
         svg{
-            color: #ffd700;
+            color: coral;
         }
     }
 
@@ -120,7 +120,7 @@ ul{
             line-height: 16px;
 
             &:hover svg {
-                color: #ffd700;
+                color: coral;
             }
         }
     }
