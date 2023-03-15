@@ -73,6 +73,10 @@
     text-align: center;
     margin-right: 10px;
   }
+  .flat-bttn:hover {
+    transform: translateY(-3px);
+    background: coral;
+}
 }
 
 .map-info{

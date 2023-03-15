@@ -44,15 +44,15 @@
         text-decoration: none;
         padding: 10px 18px;
         border: 1px solid coral;
+        border-radius: 11px;
         margin-top: 25px;
         float: left;
         animation: fadeIn 1s 1.8s backwards;
         white-space: nowrap;
-
-        &:hover {
-            background: #coral;
-            color: #333;
-        }
+    }
+    .contact-button:hover {
+        transform: translateY(-3px);
+        background: coral;
     }
 }
 
