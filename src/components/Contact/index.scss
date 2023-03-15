@@ -45,13 +45,17 @@
   textarea {
     width: 100%;
     border: 0;
-    background: #614f89;
+    background: #fea4b9;
     height: 50px;
     font-size: 16px;
     color: #fff;
     padding: 20px;
     box-sizing: border-box;
     min-height: 150px;
+
+    a{
+      text-decoration: none;
+    }
   }
   .flat-bttn {
     color: coral;
@@ -65,6 +69,7 @@
     background: 0 0;
     text-transform: uppercase;
     float: right;
+    cursor: pointer;
     text-align: center;
     margin-right: 10px;
   }
@@ -89,7 +94,8 @@ span {
     font-size: 16px;
     display: block;
     padding-top: 20px;
-    color: coral;
+    color: #614f89;
+    font-weight: 600;
 }
 
 }
