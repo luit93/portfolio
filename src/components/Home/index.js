@@ -8,7 +8,7 @@ import Logo from './Logo'
 const Home= () => {
     const [letterClass, setLetterClass]= useState('text-animate')
     const nameArray= [' ','L','u','i','t']
-    const jobArray= ['f','r','o','n','t','e','n','d',' ','d','e','v']
+    const array= [' ','d','e','v']
     useEffect(()=>{ 
         const timer = setTimeout(()=>{
          setLetterClass('text-animate-hover')
@@ -32,10 +32,11 @@ const Home= () => {
                     <Letters letterClass={letterClass}
                     strArray={nameArray} idx={15}/>
                     <br/>
+                    <span className={letterClass}>Front-end</span> 
                     <Letters letterClass={letterClass}
-                    strArray={jobArray} idx={22}/>
+                    strArray={array} idx={22}/>
                 </h1>
-                <h2> Frontend Developer</h2>
+               
                 <Link to='/contact' className='contact-button'>Contact Me</Link>
                 
             </div>

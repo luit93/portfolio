@@ -77,11 +77,23 @@
 }
 
 a{
-  text-decoration: none;
+  text-decoration: none !important;
+  color: inherit;
+
+}
+a:hover{
+  transform: translateY(-3px);
 }
 }
-.linkedin{
-  text-decoration: none;
+.links{
+  color: inherit;
+
+  text-decoration: none !important;
+}
+.links:hover{
+  transform: translateY(-3px);
+  color: black;
+
 }
 .map-info{
  position: absolute;

@@ -41,7 +41,7 @@ const Contact=()=>{
             idx={15}/>
             </h1>
             <p>
-            Please feel free to reach out to me via email, <a className='linkdedin' href="https://www.linkedin.com/in/luitsaikia/" target="_blank">LinkedIn</a>, or send me a message here for any web development projects. Thank you!
+            Please feel free to reach out to me via email, <a className='links ' href="https://www.linkedin.com/in/luitsaikia/" target="_blank">LinkedIn</a>, or send me a message here for any web development projects. Thank you!
             </p>
             <div className='contact-form'>
                 <form ref={refForm} onSubmit={sendEmail}>
@@ -68,7 +68,10 @@ const Contact=()=>{
        <div className='map-info'>
         Luit Saikia
         <br/>
-       
+        <a className='links' href="https://www.linkedin.com/in/luitsaikia/" target="_blank">LinkedIn</a>
+        <br/>
+        <a className='links' href="https://www.github.com/luit93/" target="_blank">GitHub</a>
+        <br/>
         Sydney, NSW, Australia<br/>
        <span>luitsaikia1@gmail.com</span>< br/>
        </div>

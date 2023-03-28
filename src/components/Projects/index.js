@@ -44,13 +44,13 @@ const Projects=()=>{
         <div className='container projects'>
             
             <h1 className='page-title'>
-                <Letters letterClass={letterClass} strArray={'Completed'.split('')} 
+                <Letters letterClass={letterClass} strArray={'Projects'.split('')} 
             idx={15}/>
             </h1>
             <div>{renderProjects(completedProjects.project)}</div>
            
         </div>
-        <div className='container projects'>
+        {/* <div className='container current'>
             
             <h1 className='page-title'>
                 <Letters letterClass={letterClass} strArray={'In Progress'.split('')} 
@@ -58,7 +58,7 @@ const Projects=()=>{
             </h1>
             <div>{renderProjects(currentProjects.project)}</div>
            
-        </div>
+        </div> */}
         <Loader type='ball-grid-beat'/>
         </>
     )

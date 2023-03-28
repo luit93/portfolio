@@ -32,12 +32,12 @@ const About = () => {
           />
         </h1>
         <p>
-          Hi, my name is Luit and I am a budding front end developer with
-          experience in building React apps.
+          Hi, my name is Luit and I am a freshly minted front-end developer with
+          experience in building web apps (mainly with React).
         </p>
         <p>
-          I specialize in building intuitive and user-friendly interfaces using
-          HTML, CSS, and JavaScript. I have a strong foundation in web design
+          I have experience in building intuitive and user-friendly interfaces using
+          HTML, CSS, and JavaScript. I have a foundation in web design
           principles and a passion for creating visually appealing and
           responsive websites.
         </p>
