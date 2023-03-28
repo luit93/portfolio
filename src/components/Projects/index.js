@@ -2,7 +2,8 @@ import { useEffect, useState } from 'react'
 import Loader from 'react-loaders'
 import Letters from '../Letters'
 import './index.scss'
-import projectData from "../../data/projects.json"
+import completedProjects from "../../data/completed-projects.json"
+import currentProjects from "../../data/current-projects.json"
 const Projects=()=>{
     const [letterClass, setLetterClass] = useState('text-animate')
 
@@ -43,10 +44,19 @@ const Projects=()=>{
         <div className='container projects'>
             
             <h1 className='page-title'>
-                <Letters letterClass={letterClass} strArray={'Projects'.split('')} 
+                <Letters letterClass={letterClass} strArray={'Completed'.split('')} 
             idx={15}/>
             </h1>
-            <div>{renderProjects(projectData.project)}</div>
+            <div>{renderProjects(completedProjects.project)}</div>
+           
+        </div>
+        <div className='container projects'>
+            
+            <h1 className='page-title'>
+                <Letters letterClass={letterClass} strArray={'In Progress'.split('')} 
+            idx={15}/>
+            </h1>
+            <div>{renderProjects(currentProjects.project)}</div>
            
         </div>
         <Loader type='ball-grid-beat'/>

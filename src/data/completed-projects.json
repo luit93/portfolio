@@ -15,10 +15,10 @@
 
         },
         {
-            "cover": "/project-covers/funstore.png",
-            "title": "FUNSTORE",
-            "description": "E-commerce site built with React,JavaScript,HTML,CSS",
-            "url": "https://funstore.vercel.app/"
+            "cover": "/project-covers/jobs.png",
+            "title": "Jobs App",
+            "description": "React Native app built with Jsearch api,JavaScript,HTML,CSS and published on Expo",
+            "url": "https://expo.dev/@luit/react_jobs?serviceType=classic&distribution=expo-go"
 
     }
     ]

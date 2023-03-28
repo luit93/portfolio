@@ -1,0 +1,12 @@
+{
+    "project":[
+    
+        {
+            "cover": "/project-covers/funstore.png",
+            "title": "FUNSTORE",
+            "description": "E-commerce site built with React,JavaScript,HTML,CSS",
+            "url": "https://funstore.vercel.app/"
+
+    }
+    ]
+}
