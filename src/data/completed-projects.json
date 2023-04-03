@@ -1,6 +1,13 @@
 {
     "project":[
         {
+                "cover": "/project-covers/3Drip.png",
+                "title": "3D T-shirt Creator",
+                "description": "Developed a React App with three.js that lets you create your own unique t-shirt.",
+                "url": "https://tshirt-creator.vercel.app/"
+
+        },
+        {
                 "cover": "/project-covers/hire.png",
                 "title": "HireHunter",
                 "description": "Developed the front-end for an E-commerce site with Vue.js for my internship at Talk5.",
